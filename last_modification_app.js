@@ -1,14 +1,10 @@
 var mod = require("./last_modification");
 var filename = process.argv[2];
+var strftime = require('strftime');
 
 
 var format = function(date) {
-	return date.getHours() + ":" + 
-		   date.getMinutes() + " " +
-		   date.getDate() + "." +
-		   (date.getMonth()+1) + "." +
-		   date.getFullYear();
-
+	return strftime('%B %d, %Y %H:%M:%S', date);
 }
 
 var handleDate = function(last_modified){
