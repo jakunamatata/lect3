@@ -1,0 +1,15 @@
+{
+  "name": "lect3",
+  "version": "0.1.0",
+  "description": "Stuff for modern web tools with node js, lecture 3",
+  "main": "last_modified_app.js",
+  "dependencies": {
+    "strftime": "^0.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oscar Lemström",
+  "license": "none"
+}
