@@ -11,8 +11,8 @@ var format = function(date) {
 
 }
 
-
-mod.last_modification(filename, function(last_modified){
+var handleDate = function(last_modified){
 	var formatted = format(new Date(last_modified));
 	console.log(formatted);
-});
+}
+mod.last_modification(filename, handleDate);
